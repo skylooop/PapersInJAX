@@ -1,0 +1,256 @@
+{
+    "os": "Linux-4.15.0-50-generic-x86_64-with-glibc2.27",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-04-04T10:51:54.591787",
+    "startedAt": "2023-04-04T10:51:53.715970",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "notebooks/facade.ipynb",
+    "root": "/home/m_bobrin/PapersInJAX",
+    "git": {
+        "remote": "https://github.com/skylooop/PapersInJAX.git",
+        "commit": "6d61c4cf7b1eb2635a7cceef3fc63c1cebef0b9d"
+    },
+    "email": "maksim.bobrin@skoltech.ru",
+    "host": "skoltech-DGX-Station",
+    "username": "m_bobrin",
+    "executable": "/home/m_bobrin/anaconda3/envs/DL/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 1637.862025,
+        "min": 1200.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2556.063,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1590.408,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1198.991,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2198.72,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1603.124,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2206.896,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1299.943,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1198.212,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1498.056,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1770.983,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1198.993,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1198.884,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1199.742,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1198.797,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1721.146,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1464.054,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1651.386,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1941.058,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2698.429,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2698.431,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2565.826,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1548.234,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1199.044,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2198.72,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1603.187,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2213.462,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1301.991,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1198.696,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1499.428,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1659.625,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1198.83,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1199.776,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1200.514,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1199.454,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1833.237,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1590.265,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 1875.029,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2266.656,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2698.204,
+            "min": 1200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2706.842,
+            "min": 1200.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "total": 1759.8377494812012,
+        "used": 1567.6042671203613
+    },
+    "gpu": "Tesla V100-DGXS-16GB",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-DGXS-16GB",
+            "memory_total": 17179869184
+        },
+        {
+            "name": "Tesla V100-DGXS-16GB",
+            "memory_total": 17179869184
+        },
+        {
+            "name": "Tesla V100-DGXS-16GB",
+            "memory_total": 17179869184
+        },
+        {
+            "name": "Tesla V100-DGXS-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 251.8211212158203
+    }
+}

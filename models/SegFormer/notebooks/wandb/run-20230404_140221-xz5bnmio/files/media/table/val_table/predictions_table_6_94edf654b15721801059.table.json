@@ -1,0 +1,1 @@
+{"columns": ["image", "mask", "pred_mask", "probs", "iou"], "data": [["Image", "Image", "Image", "Image", 0.998016357421875], ["Image", "Image", "Image", "Image", 0.9928703308105469], ["Image", "Image", "Image", "Image", 1.0], ["Image", "Image", "Image", "Image", 0.9992294311523438]]}
