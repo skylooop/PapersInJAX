@@ -19,7 +19,7 @@ from pytorch_lightning.loggers import TensorBoardLogger
 from pytorch_lightning.loggers.wandb import WandbLogger
 
 
-class TrainState(train_state):
+class TrainState(train_state.TrainState):
     '''
     Any functionality to keep track of
     '''
@@ -121,7 +121,7 @@ class TrainerModule:
             self.train_step = jax.jit(train_step)
             self.eval_step = jax.jit(eval_step)
     
-    def init_model(self, dummy: tp.Any):
+    def init_model(self, dummy_input: tp.Any):
         model_rng = jax.random.PRNGKey(self.seed)
         model_rng, init_rng = jax.random.split(model_rng)
         dummy_input = [dummy_input] if not isinstance(dummy_input, (list, tuple)) else dummy_input
@@ -344,7 +344,7 @@ class TrainerModule:
           Wrapped iterator if progress bar is enabled, otherwise same iterator
           as input.
         """
-        if self.enable_progress_bar:
+        if self.progress_bar:
             return tqdm(iterator, **kwargs)
         else:
             return iterator
